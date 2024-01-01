@@ -65,3 +65,30 @@
   max-width: 500px;
   width: 100%;
 }
+
+@media (max-width: 1200px) {
+  .main-navigation {
+    max-width: 400px;
+    width: 50%;
+  }
+
+  .main-navigation-link {
+    width: 150px;
+  }
+}
+
+@media (max-width: 768px) {
+  .home-content {
+    flex-direction: column;
+    justify-content: center !important;
+    gap: 1rem;
+  }
+
+  .main-intro-container {
+    width: 100% !important;
+  }
+
+  .main-navigation {
+    width: 100% !important;
+  }
+}

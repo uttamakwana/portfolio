@@ -5,7 +5,7 @@ import { Navigation } from "../../components";
 
 const Home = () => {
   return (
-    <section className="main-content flex-between pi-1">
+    <section className="main-content flex-between pi-1 home-content">
       {/* Intro */}
       <div className="main-intro-container">
         <h1 className="main-intro font-extrabold clr-secondary fs-3">
