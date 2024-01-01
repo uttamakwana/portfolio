@@ -1,0 +1,67 @@
+.main-navigation-line {
+  width: 20px;
+  background-color: var(--clr-secondary);
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  /* height: 100px; */
+  height: 400px;
+  position: relative;
+}
+
+.main-navigation-link {
+  position: absolute;
+  clip-path: polygon(50% 0%, 100% 0, 100% 100%, 50% 100%, 0 50%);
+  background-color: var(--clr-tertiory);
+  /* padding: 1rem 0; */
+  /* padding-left: 2rem; */
+  /* padding-right: 1rem; */
+  color: var(--clr-secondary);
+  width: 175px;
+  height: 60px;
+  font-size: 18px;
+}
+
+.main-navigation-link-left {
+  clip-path: polygon(50% 0%, 100% 0, 100% 100%, 50% 100%, 0 50%);
+  padding-left: 1.5rem;
+}
+
+.main-navigation-link-right {
+  clip-path: polygon(50% 0, 100% 51%, 50% 100%, 0 100%, 1% 0);
+  padding-right: 1.5rem;
+}
+
+.home-link {
+  top: 20px;
+  right: 20px;
+}
+
+.projects-link {
+  top: 80px;
+  left: 20px;
+}
+
+.education-link {
+  top: 140px;
+  right: 20px;
+}
+
+.achievements-link {
+  top: 200px;
+  left: 20px;
+}
+
+.skills-link {
+  top: 260px;
+  right: 20px;
+}
+
+.resume-link {
+  top: 320px;
+  left: 20px;
+}
+
+.main-navigation {
+  max-width: 500px;
+  width: 100%;
+}

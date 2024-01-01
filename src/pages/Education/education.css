@@ -1,0 +1,31 @@
+.education-card {
+  max-width: 800px;
+}
+
+.education-card-left {
+  width: 10%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.education-card-left .circle {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  border: 1px solid var(--clr-secondary);
+}
+
+.education-card-left .dashed-line {
+  width: 1px;
+  height: calc(100% - 20px);
+  border: 1px dashed var(--clr-secondary);
+}
+
+.education-card-right {
+  width: 90%;
+}
+
+.education-card-title p {
+  width: 100px;
+}

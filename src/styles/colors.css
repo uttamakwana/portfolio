@@ -1,0 +1,39 @@
+:root {
+  --clr-primary: #0f0f0f;
+  --clr-secondary: #fcf5ed;
+  --clr-tertiory: #ce5a67;
+  --clr-linkedin: #0077b5;
+  --clr-mail: #f2a60c;
+}
+
+.bg-primary {
+  background-color: var(--clr-primary);
+}
+
+.bg-secondary {
+  background-color: var(--clr-secondary);
+}
+
+.bg-tertiory {
+  background-color: var(--clr-tertiory);
+}
+
+.clr-primary {
+  color: var(--clr-primary);
+}
+
+.clr-secondary {
+  color: var(--clr-secondary);
+}
+
+.clr-tertiory {
+  color: var(--clr-tertiory);
+}
+
+.clr-linkedin {
+  color: var(--clr-linkedin);
+}
+
+.clr-gmail {
+  color: var(--clr-mail);
+}

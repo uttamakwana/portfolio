@@ -1,0 +1,26 @@
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700&family=Kaushan+Script&display=swap");
+
+.kaushan-regular {
+  font-family: "Kaushan Script", sans-serif;
+  font-weight: 400;
+}
+
+.font-regular {
+  font-family: "IBM Plex Sans", sans-serif;
+  font-weight: 400;
+}
+
+.font-medium {
+  font-family: "IBM Plex Sans", sans-serif;
+  font-weight: 500;
+}
+
+.font-bold {
+  font-family: "IBM Plex Sans", sans-serif;
+  font-weight: 600;
+}
+
+.font-extrabold {
+  font-family: "IBM Plex Sans", sans-serif;
+  font-weight: 700;
+}

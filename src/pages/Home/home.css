@@ -1,0 +1,14 @@
+.main-intro-container {
+  width: 65%;
+  max-width: 1200px;
+}
+
+.main-navigation-container {
+  width: 35%;
+}
+
+.main-navigation-list-item {
+  padding: 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+}

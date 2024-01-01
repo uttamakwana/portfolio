@@ -1,0 +1,18 @@
+.skills-box-container {
+  /* display: grid; */
+  /* gap: 1rem; */
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  max-width: 900px;
+}
+
+.skill-box {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-color: var(--clr-secondary);
+  box-shadow: 0 3px 4px rgba(0, 0, 0, 0.5);
+}
