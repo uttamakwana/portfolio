@@ -5,7 +5,7 @@ const Header = () => {
     <header className="header flex-between pi-1">
       <div className="header-logo-container">
         {/* <img src="" alt="logo" /> */}
-        <h1 className="font-bold clr-secondary">MU</h1>
+        <h1 className="font-bold clr-secondary fs-3">MU</h1>
       </div>
       <div className="header-flag-container">
         <img

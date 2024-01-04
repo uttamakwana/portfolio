@@ -10,8 +10,9 @@
 }
 
 .skill-box {
-  width: 100px;
-  height: 100px;
+  /* width: 100px;
+  height: 100px; */
+  padding: 1rem;
   border-radius: 50%;
   background-color: var(--clr-secondary);
   box-shadow: 0 3px 4px rgba(0, 0, 0, 0.5);

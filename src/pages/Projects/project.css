@@ -24,3 +24,12 @@
 .projects-container::-webkit-scrollbar-thumb {
   background-color: var(--clr-tertiory);
 }
+
+@media (width <= 468px) {
+  .projects {
+    overflow-y: scroll;
+  }
+  .projects .projects-container {
+    height: 60%;
+  }
+}

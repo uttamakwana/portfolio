@@ -21,6 +21,11 @@
   font-size: 18px;
 }
 
+.main-navigation-link.active {
+  background-color: var(--clr-secondary);
+  color: var(--clr-tertiory);
+}
+
 .main-navigation-link-left {
   clip-path: polygon(50% 0%, 100% 0, 100% 100%, 50% 100%, 0 50%);
   padding-left: 1.5rem;
@@ -78,7 +83,7 @@
 }
 
 @media (max-width: 768px) {
-  .home-content {
+  .main-content-flex-column {
     flex-direction: column;
     justify-content: center !important;
     gap: 1rem;
